@@ -14,7 +14,7 @@ const DATABASE_URL = process.env.DATABASE_URL === undefined
     : process.env.DATABASE_URL;
 module.exports = { session: process.env.SESSION_ID || '',
     PREFIXE: process.env.PREFIX || ".",
-    OWNER_NAME: process.env.OWNER_NAME || "254799056874",
+    OWNER_NAME: process.env.OWNER_NAME || "254717265431",
     NUMERO_OWNER : process.env.NUMERO_OWNER || " Pkdriller01",              
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "yes",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'no',
@@ -34,7 +34,7 @@ module.exports = { session: process.env.SESSION_ID || '',
                   AUTO_READ : process.env.AUTO_READ || 'no',
                   CHATBOT : process.env.CHATBOT || "yes",
                   AUTO_BIO : process.env.AUTO_BIO || "yes",
-                  AUTO_REACT : process.env.AUTO_REACT || "no",
+                  AUTO_REACT : process.env.AUTO_REACT || "yes",
     DATABASE_URL,
     DATABASE: DATABASE_URL === databasePath
         ? "postgresql://postgres:bKlIqoOUWFIHOAhKxRWQtGfKfhGKgmRX@viaduct.proxy.rlwy.net:47738/railway" : "postgresql://postgres:bKlIqoOUWFIHOAhKxRWQtGfKfhGKgmRX@viaduct.proxy.rlwy.net:47738/railway",
